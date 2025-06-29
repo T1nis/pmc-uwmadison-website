@@ -48,10 +48,10 @@ export default function Home() {
           </div>
         </div>
         <p style={{ fontWeight: 500, margin: '2rem 0' }}>
-          Whether you're a CS major, aspiring engineer, business student, designer, or just someone who likes building things — this is where you can explore what it means to own a product.
+          Whether you&apos;re a CS major, aspiring engineer, business student, designer, or just someone who likes building things — this is where you can explore what it means to own a product.
         </p>
         <p style={{ fontSize: '1.1rem', marginTop: '2rem', color: '#333' }}>
-          Be part of a community that's serious about learning, building, and leading.
+          Be part of a community that&apos;s serious about learning, building, and leading.
         </p>
       </section>
     </main>
