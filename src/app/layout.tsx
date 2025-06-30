@@ -1,3 +1,7 @@
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
+
 export const metadata = {
   title: 'Product Management Club @ UW–Madison',
   description:
@@ -27,15 +31,21 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <head />
-      <body>{children}</body>
+    <html lang="en" style={{ width: '100%', height: '100%', margin: 0, padding: 0, background: '#fff' }}>
+      <body className={inter.className} style={{
+        minHeight: '100vh',
+        minWidth: '100vw',
+        margin: 0,
+        padding: 0,
+        background: '#fff',
+        borderRadius: 0,
+        boxSizing: 'border-box'
+      }}>
+        {children}
+      </body>
     </html>
   );
 }
