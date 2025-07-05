@@ -10,18 +10,22 @@ export default function Events() {
         <h1 style={{ color: '#c5050c', fontWeight: 800, fontSize: '2rem' }}>
           Upcoming Events
         </h1>
-        <div style={{ marginTop: '2rem', textAlign: 'left' }}>
-          <h2 style={{ color: '#c5050c' }}>Speaker Events</h2>
-          <ul>
-            <li>Info coming soon...</li>
+
+        <div style={{ marginTop: '2rem', textAlign: 'left', fontSize: '1.1rem' }}>
+          <h2 style={{ color: '#c5050c' }}>Org Fair</h2>
+          <ul style={{ marginBottom: '1.5rem' }}>
+            <li>
+              <strong>September 9 & 10, 2024</strong><br />
+              Find us at the UW–Madison Org Fair! Stop by to meet the team, learn about the club, and get involved.
+            </li>
           </ul>
-          <h2 style={{ color: '#c5050c', marginTop: '1.5rem' }}>Curriculum Nights</h2>
+
+          <h2 style={{ color: '#c5050c', marginTop: '1.5rem' }}>Kickoff Event</h2>
           <ul>
-            <li>Info coming soon...</li>
-          </ul>
-          <h2 style={{ color: '#c5050c', marginTop: '1.5rem' }}>PM Competitions</h2>
-          <ul>
-            <li>Info coming soon...</li>
+            <li>
+              <strong>September 17, 2024</strong><br />
+              Join us for our club kickoff event! Open to all UW–Madison students—come for info, meet other members, and get started with Product Management Club.
+            </li>
           </ul>
         </div>
       </section>

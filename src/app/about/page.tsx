@@ -3,7 +3,7 @@
 import Navbar from '.././components/Navbar';
 
 const eboard = [
-    { name: "Kobe", position: "Founder", img: "/blank-profile.png" },
+    { name: "Kobe Thou", position: "Founder", img: "/blank-profile.png" },
     { name: "Jay Dixit", position: "VP", img: "/blank-profile.png" },
     { name: "Suryash Rawat", position: "VP", img: "/blank-profile.png" },
     { name: "Armaan Jain", position: "VP", img: "/blank-profile.png" }
