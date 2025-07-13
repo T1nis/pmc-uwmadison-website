@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import './globals.css';
+import Footer from './components/Footer';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +23,6 @@ export const metadata = {
     type: 'website',
     siteName: 'Product Management Club @ UW–Madison',
   },
-  // (Optional) For Twitter/X card preview
   twitter: {
     card: 'summary_large_image',
     title: 'Product Management Club @ UW–Madison',
@@ -31,7 +31,6 @@ export const metadata = {
     images: ['/logo1.png'],
   },
 };
-
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -46,6 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         boxSizing: 'border-box'
       }}>
         {children}
+        <Footer />
       </body>
     </html>
   );

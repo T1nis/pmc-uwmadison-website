@@ -32,7 +32,7 @@ export default function Navbar() {
       </Link>
       <div>
         <Link href="/" style={{ margin: '0 1rem', color: '#fff', textDecoration: 'none', fontWeight: 500 }}>Home</Link>
-        <Link href="/about" style={{ margin: '0 1rem', color: '#fff', textDecoration: 'none', fontWeight: 500 }}>About</Link>
+        {/* <Link href="/about" style={{ margin: '0 1rem', color: '#fff', textDecoration: 'none', fontWeight: 500 }}>About</Link> */}
         <Link href="/join" style={{ margin: '0 1rem', color: '#fff', textDecoration: 'none', fontWeight: 500 }}>Join</Link>
         <Link href="/events" style={{ margin: '0 1rem', color: '#fff', textDecoration: 'none', fontWeight: 500 }}>Events</Link>
       </div>
