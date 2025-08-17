@@ -13,7 +13,7 @@ export default function Home() {
       <section className="relative z-10 flex flex-col items-center justify-center min-h-[60vh] pt-10 pb-10 px-4 text-center bg-white">
         <div className="mb-0 animate-fade-in">
           <img
-            src="/logo1.png"
+            src="/logo.png"
             alt="PMC Logo"
             style={{ width: '500px', height: '500px' }}
           />

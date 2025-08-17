@@ -14,7 +14,7 @@ export default function Navbar() {
       {/* Logo on left, links on right */}
       <Link href="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
         <Image
-          src="/logo1.png" // Change this if your file is named differently
+          src="/logo.png" // Change this if your file is named differently
           alt="PMC Logo"
           width={48}
           height={48}

@@ -8,13 +8,16 @@ export const metadata = {
   title: 'Product Management Club @ UW–Madison',
   description:
     'Empowering future product leaders through education, mentorship, and real-world product challenges at UW–Madison.',
+  icons: {
+    icon: '/logo.png'
+  },
   openGraph: {
     title: 'Product Management Club @ UW–Madison',
     description:
       'Empowering future product leaders through education, mentorship, and real-world product challenges at UW–Madison.',
     images: [
       {
-        url: '/logo1.png', // Path to logo in the public/ folder
+        url: '/logo.png', // Path to logo in the public/ folder
         width: 1200,
         height: 630,
         alt: 'Product Management Club Logo',
@@ -28,7 +31,7 @@ export const metadata = {
     title: 'Product Management Club @ UW–Madison',
     description:
       'Empowering future product leaders through education, mentorship, and real-world product challenges at UW–Madison.',
-    images: ['/logo1.png'],
+    images: ['/logo.png'],
   },
 };
 
