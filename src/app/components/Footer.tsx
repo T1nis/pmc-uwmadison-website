@@ -33,7 +33,7 @@ export default function Footer() {
             href="mailto:uwproductmanagement@gmail.com"
             className="underline hover:text-gray-200 transition"
           >
-            uwproductmanagement@gmail.com
+            badgerproductclub@gmail.com
           </a>
         </div>
       </div>

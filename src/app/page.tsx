@@ -29,11 +29,6 @@ export default function Home() {
       {/* Mission Statement */}
       <section
         className="py-40 px-4 w-full mt-24 mb-24 animate-fade-in relative overflow-hidden"
-        style={{
-          backgroundImage: "url('/bascom-hall-banner.jpg')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
       >
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 flex flex-col items-center justify-center px-6">
